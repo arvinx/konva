@@ -470,7 +470,7 @@
       this.findOne('.rotater').setAttrs({
         x: width / 2,
         y: -this.rotateHandlerOffset(),
-        visible: this.rotateEnabled()
+        visible: false
       });
 
       this.findOne('.back').setAttrs({
